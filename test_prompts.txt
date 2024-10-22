@@ -1,0 +1,218 @@
+EXAMPLE 1: STANDARD USE
+
+Welcome to SwoleBot, an automated service to create personalized workout plans.
+User> hello0
+Assistant> How would you describe your current fitness level? Are you a beginner, intermediate, or expert?
+User> intermediate
+Assistant> Do you want to lift in the gym or at home?
+User> home
+Assistant> Do you want to have a workout plan for 1, 3, or 5 days a week?
+User> 1
+Assistant> Just to confirm, you are an intermediate looking to lift at home and you want to lift 1 day a week. Is that correct?
+User> yes
+Assistant> Great! Here's your customized workout plan for gaining muscle:
+
+Workout plan for lifting 1 day a week:
+Day 1 - Full Body
+- Chest Workout 1: 3 sets, 10 reps
+- Tricep Workout 1: 3 sets, 10 reps
+- Bicep Workout 1: 3 sets, 10 reps
+- Shoulder Workout 1: 3 sets, 10 reps
+- Leg Workout 1: 3 sets, 10 reps
+- Back Workout 1: 3 sets, 10 reps
+
+Take a look at this plan and let me know if you'd like to make any adjustments or if you have any questions.
+User> looks good!
+Assistant> Great! Your personalized workout plan has been updated according to your preferences. You're all set to start your fitness journey! 
+
+Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> 
+Goodbye!
+
+EXAMPLE 2: CHANGING MIND BEFORE WORKOUT IS CREATED
+
+Welcome to SwoleBot, an automated service to create personalized workout plans.
+User> hello
+Assistant> How would you describe your current fitness level? Are you a beginner, intermediate, or expert?
+User> intermiediat
+eAssistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+User> intermediate
+Assistant> Do you want to lift in the gym or at home?
+User> home
+Assistant> Do you want to lift 1, 3, or 5 days a week?
+User> 1
+Assistant> Just to confirm, you are an intermediate looking to lift at home and you want to lift 1 day a week. Is that correct?
+User> actually, i am a beginner and I want to lift at the gum
+Assistant> Just to confirm, you are a beginner looking to lift at the gym and you want to lift 1 day a week. Is that correct?
+User> yes
+Assistant> Here's your customized workout plan. Take a look and let me know if you'd like to make any adjustments or if you have any questions.
+
+Workout plan if you want to lift 1 day a week and want to gain muscle:
+
+Day 1 - Full Body
+- Pushups: 2 sets, 8 reps
+- Close handed pushups: 2 sets, 8 reps
+- Bicep curl: 2 sets, 8 reps
+- Lateral raises: 2 sets, 8 reps
+- Lunges: 2 sets, 8 reps
+- Pull ups: 2 sets, 8 reps
+
+Feel free to reach out if you need any modifications or have any questions!
+User> looks good
+Assistant> Great! Your personalized workout plan has been updated according to your preferences. You're all set to start your fitness journey! 
+
+Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> 
+Assistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+Goodbye!
+
+EXAMPLE 3: CHANGING MIND AFTER THE WORKOUT HAS BEEN CREATED
+
+Welcome to SwoleBot, an automated service to create personalized workout plans.
+User> hello
+Assistant> How would you describe your current fitness level? Are you a beginner, intermediate, or expert?
+User> intermeidate
+Assistant> Do you want to lift in the gym or at home?
+User> home
+Assistant> Do you want to have a workout plan for 1, 3, or 5 days a week?
+User> 3
+Assistant> Just to confirm, you are an intermediate looking to lift at home and you want to lift 3 days a week. Is that correct?
+User> yes
+Assistant> Here's your customized workout plan. Take a look and let me know if you'd like to make any adjustments.
+
+Workout plan if you want to lift 3 days a week and want to gain muscle:
+
+Day 1 - Chest and triceps
+- Incline pushups: 3 sets, 10 reps
+- Close handed pushups: 3 sets, 10 reps
+
+Day 2 - Back and biceps
+- Pull ups: 3 sets, 10 reps
+- Hammer curls: 3 sets, 10 reps
+
+Day 3 - Legs and shoulders
+- Lunges: 3 sets, 10 reps
+- Lateral raises: 3 sets, 10 reps
+
+Great! Your personalized workout plan is complete! You're all set to start your fitness journey! Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> actually, i am a beginner
+Assistant> Just to confirm, you are a beginner looking to lift at home and you want to lift 3 days a week. Is that correct?
+User> yes
+Assistant> Here's your customized workout plan. Take a look and let me know if you'd like to make any adjustments.
+
+Workout plan if you want to lift 3 days a week and want to gain muscle:
+
+Day 1 - Chest and triceps
+- Incline pushups: 2 sets, 8 reps
+- Close handed pushups: 2 sets, 8 reps
+
+Day 2 - Back and biceps
+- Pull ups: 2 sets, 8 reps
+- Hammer curls: 2 sets, 8 reps
+
+Day 3 - Legs and shoulders
+- Lunges: 2 sets, 8 reps
+- Lateral raises: 2 sets, 8 reps
+
+Great! Your personalized workout plan is complete! You're all set to start your fitness journey! Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> actually, i want to wok out 5 days a week
+Assistant> Just to confirm, you are a beginner looking to lift at home and you want to lift 5 days a week. Is that correct?
+User> yes
+Assistant> Here's your customized workout plan. Take a look and let me know if you'd like to make any adjustments.
+
+Workout plan if you want to lift 5 days a week and want to gain muscle:
+
+Day 1 - Chest
+- Incline pushups: 2 sets, 8 reps
+- Incline pushups: 2 sets, 8 reps
+- Decline pushups: 2 sets, 8 reps
+
+Day 2 - Back
+- Pull ups: 2 sets, 8 reps
+- Reverse flys: 2 sets, 8 reps
+- Renegade rows: 2 sets, 8 reps
+
+Day 3 - Shoulders
+- Lateral raises: 2 sets, 8 reps
+- Front raises: 2 sets, 8 reps
+- Shoulder shrugs: 2 sets, 8 reps
+
+Day 4 - Legs
+- Lunges: 2 sets, 8 reps
+- Glute bridges: 2 sets, 8 reps
+- Calf raises: 2 sets, 8 reps
+
+Day 5 - Arms
+- Hammer curls: 2 sets, 8 reps
+- Close handed pushups: 2 sets, 8 reps
+- Resistance band curls: 2 sets, 8 reps
+- Bench dips: 2 sets, 8 reps
+- Concentration curls: 2 sets, 8 reps
+- Tricep dips: 2 sets, 8 reps
+
+Great! Your personalized workout plan is complete! You're all set to start your fitness journey! Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> thank you
+Assistant> Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> 
+Assistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+Goodbye!
+
+EXAMPLE 4: ANSWERING QUESTIONS OUT OF ORDER
+
+User> hello
+Assistant> How would you describe your current fitness level? Are you a beginner, intermediate, or expert?
+User> expert
+Assistant> Do you want to lift in the gym or at home?
+User> 3
+Assistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+User> yes
+Assistant> Do you want to lift in the gym or at home?
+User> home
+Assistant> Do you want to have a workout plan for 1, 3, or 5 days a week?
+User> 3
+Assistant> Just to confirm, you are an expert looking to lift at home and you want to lift 3 days a week. Is that correct?
+User> yes
+Assistant> Here's your customized workout plan. Take a look and let me know if you'd like to make any adjustments.
+
+Workout plan if you want to lift 3 days a week and want to gain muscle:
+
+Day 1 - Chest and triceps
+- Incline pushups: 4 sets, 12 reps
+- Tricep dips: 4 sets, 12 reps
+
+Day 2 - Back and biceps
+- Pull ups: 4 sets, 12 reps
+- Resistance band curls: 4 sets, 12 reps
+
+Day 3 - Legs and shoulders
+- Lunges: 4 sets, 12 reps
+- Lateral raises: 4 sets, 12 reps
+
+Would you like to make any adjustments to this plan?
+User> no
+Assistant> Great! Your personalized workout plan is complete! You're all set to start your fitness journey! 
+
+Thank you for creating your workout plan with me! Feel free to reach out anytime if you need further assistance or support. Have a fantastic workout!
+User> 
+Assistant> The conversation will end here as you haven't provided any input. If you have any more questions or need assistance in the future, feel free to reach out. Have a great day!
+Goodbye!
+
+EXAMPLE 5: TRYING TO GET THE CHATBOT OFF TASK AND USING UNAUTHORIZED OPTIONS
+
+Welcome to SwoleBot, an automated service to create personalized workout plans.
+User> what is todays date
+Assistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+User> what is a fun workout
+Assistant> How would you describe your current fitness level? Are you a beginner, intermediate, or expert?
+User> i have never lifted in my life
+Assistant> Do you want to lift in the gym or at home?
+User> what is the name of the president
+Assistant> I'm sorry, I can't help with that. Please stick to the questions asked.
+User> home
+Assistant> Do you want to have a workout plan for 1, 3, or 5 days a week?
+User> seven
+Assistant> Do you want to have a workout plan for 1, 3, or 5 days a week?
+User> 1
+Assistant> Just to confirm, you are a beginner looking to lift at home and you want to lift 1 day a week. Is that correct?
+User> 
+
